@@ -35,7 +35,9 @@
   .skills { grid-area: 4 / 2 / 5 / 3; }
   
 #skills-header {
-    text-align: center}
+    text-align: center 
+    
+  }
 
 
 
@@ -54,7 +56,6 @@
   body {
       background-color: lightblue;
   }
-
 
 
   
