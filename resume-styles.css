@@ -6,18 +6,15 @@
 
   }
   
-  .header { grid-area: 1 / 1 / 2 / 2; 
-        text-align: center;
-  }
-  
-
+.header {
+    text-align: center;
+}
 
   .experience { grid-area: 2 / 1 / 4 / 2; }
 
   #experience-header {
-        text-align: center;}
-
-
+        text-align: center;
+      }
 
   
   .contact { grid-area: 4 / 1 / 5 / 2;}
@@ -63,11 +60,12 @@
   
   /* For presentation only, no need to copy the code below */
 
-
- .container * {
+/* .container * {
     border: 1px solid red;
     position: relative;
-   }  
+   }   */
+
+   
    
   /* .container *:after {
     content:attr(class);
