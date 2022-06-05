@@ -1,5 +1,5 @@
 .container {  display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr .5fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -10,10 +10,16 @@
     text-align: center;
 }
 
+.name {
+  border-style: dotted;
+  }
+
   .experience { grid-area: 2 / 1 / 4 / 2; }
 
   #experience-header {
         text-align: center;
+        border-style: dotted;
+        border-width: 2px;
       }
 
   
@@ -21,6 +27,8 @@
 
 #contact-header {
     text-align: center;
+    border-style: dotted;
+    border-width: 2px;
     }
 
 
@@ -28,26 +36,33 @@
   .education { grid-area: 2 / 2 / 4 / 3;}
 
 #education-header {
-    text-align: center;}
+    text-align: center;
+    border-style: dotted;
+    border-width: 2px;
+  }
   
 
 
   .skills { grid-area: 4 / 2 / 5 / 3; }
   
 #skills-header {
-    text-align: center 
+    text-align: center;
+    border-style: dotted;
+    border-width:2px;
     
   }
 
 
 
-  .pic { grid-area: 1 / 2 / 2 / 3; }
+  #pic { grid-area: 1 / 2 / 2 / 3;
+      
+  }
   
   
 
   html, body , .container {
     height: 105%;
-    margin-left: 30px;
+    margin-left: 20px;
     width: 100%; 
   }
 
@@ -61,10 +76,10 @@
   
   /* For presentation only, no need to copy the code below */
 
-/* .container * {
+ /* .container * {
     border: 1px solid red;
     position: relative;
-   }   */
+   }    */
 
 
    
