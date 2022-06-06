@@ -1,5 +1,5 @@
 .container {  display: grid;
-    grid-template-columns: 1fr .5fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -12,14 +12,14 @@
 
 .name {
   border-style: dotted;
+  border-color:aliceblue;
   }
 
   .experience { grid-area: 2 / 1 / 4 / 2; }
 
   #experience-header {
         text-align: center;
-        border-style: dotted;
-        border-width: 2px;
+        border: 2px dotted aliceblue;
       }
 
   
@@ -27,8 +27,7 @@
 
 #contact-header {
     text-align: center;
-    border-style: dotted;
-    border-width: 2px;
+    border: 2px dotted aliceblue
     }
 
 
@@ -37,8 +36,7 @@
 
 #education-header {
     text-align: center;
-    border-style: dotted;
-    border-width: 2px;
+    border: 2px dotted aliceblue
   }
   
 
@@ -47,9 +45,7 @@
   
 #skills-header {
     text-align: center;
-    border-style: dotted;
-    border-width:2px;
-    
+    border: 2px dotted aliceblue
   }
 
 
