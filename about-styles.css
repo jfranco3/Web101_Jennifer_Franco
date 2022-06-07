@@ -34,16 +34,6 @@
 }
 
 
-.triangle-left {
-	width: 0;
-	height: 0;
-	border-top: 25px solid transparent;
-	border-right: 50px solid purple;
-	border-bottom: 25px solid transparent;
-
-}
-
-
   .title { grid-area: title; 
     background-color:red;
     text-align: center;
@@ -55,31 +45,44 @@
  
   .pets { grid-area: pets; 
     background-color: deeppink;
-    /* width: max-content; */
     border: dashed lime;
+    border-radius: 40px;
  }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
   
  .hobbies { grid-area: hobbies; 
     background-color: rgb(33, 253, 180);
     border: dashed lime;
+    border-radius: 40px;
  }
 
 
  .favorite-snacks { grid-area: favorite-snacks; 
     background-color: rgb(8, 24, 249);
     border: dashed lime;
+    border-radius: 15px;
  }
 
+ .pic { grid-area: pic;
+     background-color: yellow;
+     border: dashed lime;
+     border-radius: 15px;
+ }
+
+
+
+
+
+
  
-  .pic { grid-area: pic; 
-    background-color: yellow;
-    border: dashed lime;
-}
-
-
-
  /* medium device rules   */
- @media (min-width: 576px) {
+  @media (min-width: 576px) {
 
     .container {  
         display: grid;
@@ -89,12 +92,10 @@
             "pets favorite-snacks"
             "hobbies pic";
       }
-    
-}    
-
+}     
  
- /* desktop device rules  */
-/* @media (min-width: 922px)  {
+  /* desktop device rules  */ 
+ @media (min-width: 922px)  {
     .container {  
         display: grid;
         gap: 30px;
@@ -103,4 +104,4 @@
             ". pets pets favorite-snacks ."
             ". hobbies hobbies pic .";
       }
-        } */
+        } 
