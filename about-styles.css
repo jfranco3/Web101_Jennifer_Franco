@@ -12,7 +12,7 @@
 
 
   body {
-      background-color: black;
+      background-color: lightslategray;
   }
 
   h2 {
@@ -23,15 +23,6 @@
       text-align: center;
   }
 
-
-  .triangle-left {
-	width: 0;
-	height: 0;
-	border-top: 25px solid transparent;
-	border-right: 50px solid purple;
-	border-bottom: 25px solid transparent;
-
-}
 
 
   .title { grid-area: title; 
@@ -90,8 +81,14 @@
             "pets favorite-snacks"
             "hobbies pic";
       }
+
+      body {
+        background-color: darkslategray;
+      }
 }     
  
+
+
   /* desktop device rules  */ 
  @media (min-width: 922px)  {
     .container {  
@@ -102,4 +99,8 @@
             ". pets pets favorite-snacks ."
             ". hobbies hobbies pic .";
       }
+      body{
+        background-color: black;
+      }
+
         } 
