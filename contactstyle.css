@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+   background-size:cover;
+}
+
+
+
+h1 {
+    border-style: double ;
+    border-radius: 10px;
+}
+
+
+label {
+    font-size: medium;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+label:hover {
+    text-decoration: underline;
+    background-color: rgb(182, 208, 222);
+}
+
+
+button {
+    outline: 2px solid tan;
+    color: black;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+    background-color: rgb(33, 140, 207);
+    color: black;
+}
+
+
+
+
+ /* small devices */
+@media (min-width:600px) {
+body {
+    text-align: center;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+    color:whitesmoke ;
+   background-size:cover;
+}
+} 
+
+
+
+/* desktop/laptops */
+@media (min-width: 992px) {
+
+    body {
+    text-align: center;
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    background-size:cover;
+    background-position: center;
+}
+}
