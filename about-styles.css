@@ -28,7 +28,6 @@
   .title { grid-area: title; 
     background-color:red;
     text-align: center;
-    
     border: dashed lime;
   }
 
@@ -38,6 +37,7 @@
     background-color: deeppink;
     border: dashed lime;
     border-radius: 40px;
+    padding-bottom: 50px;
  }
 
  .center {
@@ -58,12 +58,14 @@
     background-color: rgb(8, 24, 249);
     border: dashed lime;
     border-radius: 15px;
+    padding-bottom: 50px;
  }
 
  .pic { grid-area: pic;
      background-color: yellow;
      border: dashed lime;
      border-radius: 15px;
+     padding-bottom: 50px;
  }
 
 
