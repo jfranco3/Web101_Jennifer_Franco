@@ -2,7 +2,7 @@ body {
     text-align: center;
     background-image: url("backgroundpic.jpg");
     background-repeat: no-repeat;
-    color: rgb(17, 123, 73);
+    color: rgb(161, 221, 193);
    background-size:cover;
 }
 
@@ -31,6 +31,9 @@ body {
 }
 
 
+h3 {
+    color:azure;
+}
 
 label {
     font-size: medium;
@@ -45,7 +48,7 @@ label:hover {
 
 
 button {
-    outline: 2px solid tan;
+    outline: 2px solid rgb(108, 76, 34);
     color: black;
     border: none;
     padding: 5px 5px;
@@ -61,8 +64,8 @@ button:hover {
 
 
 
- /* small devices */
-@media (min-width:600px) {
+ /* cell phone devices */
+@media (max-width:600px) {
 body {
     text-align: center;
     background-image: url("backgroundpic.jpg");
@@ -70,9 +73,23 @@ body {
     color:whitesmoke ;
    background-size:cover;
 }
+
+h3 {
+    color: azure;
+}
 } 
 
-
+/* medium devices */
+@media (min-width: 768px) {
+    body {
+        text-align: center;
+        background-image: url("backgroundpic.jpg");
+        background-repeat: no-repeat;
+        color: whitesmoke;
+        background-size:cover;
+        background-position: center;
+    }
+}
 
 /* desktop/laptops */
 @media (min-width: 992px) {
@@ -86,3 +103,5 @@ body {
     background-position: center;
 }
 }
+
+
