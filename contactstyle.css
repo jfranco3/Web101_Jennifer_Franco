@@ -2,27 +2,45 @@ body {
     text-align: center;
     background-image: url("backgroundpic.jpg");
     background-repeat: no-repeat;
-    color: whitesmoke;
+    color: rgb(17, 123, 73);
    background-size:cover;
 }
 
 
 
-h1 {
-    border-style: double ;
+/* h1 {
+    border-style: double;
     border-radius: 10px;
+} */
+
+.glow {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px, #57bc48, 0 0 40px #00e623, 0 0 50px #49ff01,;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #57bc48, 0 0 40px #00e623, 0 0 50px #0bfe37, 0 0 80px #16ff1e;
+    }
+}
+
 
 
 label {
     font-size: medium;
-    color: whitesmoke;
+    color: rgb(205, 237, 198);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 label:hover {
     text-decoration: underline;
-    background-color: rgb(182, 208, 222);
+    background-color: rgb(116, 212, 135);
 }
 
 
@@ -37,10 +55,9 @@ button {
 }
 
 button:hover {
-    background-color: rgb(33, 140, 207);
+    background-color: rgb(6, 124, 57);
     color: black;
 }
-
 
 
 
